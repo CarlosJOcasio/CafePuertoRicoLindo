@@ -35,3 +35,7 @@ $('#about').click(function(){
 $('#contact').click(function(){
 	loadPage('#placeholder','contact');
 });
+
+$('#browsegallery').click(function(){
+	loadPage('#placeholder','gallery');
+});
