@@ -6,6 +6,7 @@ function loadPage(id,filename){
 	
 	var menu = $('#' + filename + '_li');
 	menu.addClass('active');
+	menu.css('color:#660000')
 }
 
 $(document).ready(function(){	
