@@ -3,29 +3,41 @@ $(document).ready(function(){
 });	
 
 $('.navbar-brand').click(function(){
-	loadPage('#placeholder','home');
+	loadToPlaceholder('home');
 });
 
 $('#home').click(function(){
-	loadPage('#placeholder','home');
+	loadToPlaceholder('home');
 });
 
 $('#history').click(function(){
-	loadPage('#placeholder','history');
+	loadToPlaceholder('history');
 });
 
 $('#gallery').click(function(){
-	loadPage('#placeholder','gallery');
+	loadToPlaceholder('gallery');
 });
 
 $('#about').click(function(){
-	loadPage('#placeholder','about');
+	loadToPlaceholder('about');
 });
 
 $('#contact').click(function(){
-	loadPage('#placeholder','contact');
+	loadToPlaceholder('contact');
 });
 
 $('#browsegallery').click(function(){
-	loadPage('#placeholder','gallery');
+	loadToPlaceholder('gallery');
 });
+
+/*
+var menuicon = $('#menuicon');
+
+menuicon.click(function(){
+	var menubutton = $("#menubutton");
+	if( menuicon.is(':visible') && menubutton.attr( "aria-expanded" ) === "true" ) {
+		var navbarCollapse = $('#navbarCollapse');
+		navbarCollapse.removeClass('show');
+		menubutton.attr( "aria-expanded", false );
+	}
+});*/

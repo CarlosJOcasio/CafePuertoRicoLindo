@@ -1,3 +1,3 @@
 $('#viewcontactpagebtn').click(function(){
-	loadPage('#placeholder','contact');
+	loadToPlaceholder('contact');
 });
