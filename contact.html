@@ -4,28 +4,28 @@
 <head>
   <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="contact.css" rel="stylesheet">
+  <link href="theme.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="container">
 
   <div class="container">
 
     <form class="form-signin">
-      <h3 class="form-signin-heading" style="color:#805500;">Contact information:</h3>
-      <label for="inputName" class="sr-only">Password</label>
-      <input type="text" id="inputName" class="form-control" placeholder="Last, first name" required>
-      </br>
-      <label for="inputEmail" class="sr-only">Email address</label>
+      <h3 class="form-signin-heading bri_tc_coffee">Contact information:</h3>      
       <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
       </br>
+      <input type="text" id="inputName" class="form-control" placeholder="Last, first name" required>
+      </br>      
       <label for="inputTellus" class="sr-only">Password</label>
       <textarea class="form-control" rows="5" id="inputTellus" placeholder="Tell us about you. (optional)" optional></textarea>
       </br>
-      <button class="btn btn-lg btn-primary btn-block" type="submit" style="background-color:#660000;border: none;">Submit</button>
+      <button class="btn btn-lg btn-primary bri_btn_bg btn-block" type="submit">Submit</button>
 
     </form>
 
   </div>
+
   <script src="bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 

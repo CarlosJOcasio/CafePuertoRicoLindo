@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="theme.css" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet">
+</head>
+
+<body>
+    <p></p>
+    <div class="row">
+        <div class="col-md-8">
+            100% Pure Premium Coffee
+            <div class="row">
+                <div class="col-md-6">Price per pound</div>
+                <div id="unit" class="col-md-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">Quantity</div>
+                <div class="col-md-6"><input id="quantity" type="number" value="1" /></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">Pounds</div>
+                <div class="col-md-6"><input id="pounds" type="number" value="5" min="5" /></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            Cart
+            <div class="row">
+                <div class="col-md-6">Sub Total</div>
+                <div id="total" class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="jquery.js"></script>
+<script>
+    window.jQuery || document.write('<script src="jquery.js"><\/script>')
+</script>
+<script src="bootstrap/assets/js/vendor/popper.min.js"></script>
+<script src="bootstrap/assets/js/vendor/holder.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="shopping.js"></script>
+
+</html>

@@ -4,19 +4,27 @@
 <head>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="theme.css" rel="stylesheet">
+  <link href="gtranslate.css" rel="stylesheet">
 </head>
 
 <body>
   <footer class="footer" stype="white-space: nowrap;">
     <div class="container">
-      <div style="float: right;">
-        <i class="fa fa-twitter-square" style="font-size:25px;position:top;color:#660000;"></i>
-        <i class="fa fa-facebook-square" style="font-size:25px;position:top;color:#660000;"></i>
-        <i class="fa fa-envelope-square" style="font-size:25px;position:top;color:#660000;"></i>
+      <div>
+        <i class="fa fa-twitter-square" style="font-size:25px;position:top;color:#1e4587;"></i>
+        <i class="fa fa-facebook-square" style="font-size:25px;position:top;color:#1e4587;"></i>
+        <i class="fa fa-envelope-square" style="font-size:25px;position:top;color:#1e4587;"></i>
       </div>
-      <p style="float: left;">&copy; 2018 BAVM, Corp. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </div>
-  </footer>
+      <p>&copy; 2018 BAVM, Corp. &middot; <a id="privacy" href="#">Privacy</a> &middot; <a id="terms" href="#">Terms</a></p>
+      <div id="google_translate_element"></div>
+    </div>    
+  </footer>  
+
+  <script src="gtranslate.js"></script>
+  <!-- Important, enable when ready to go to production. Create account-->
+  <!-- https://cloud.google.com/translate/pricing -->
+  <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> --> 
 </body>
 
 </html>

@@ -30,14 +30,14 @@ $('#browsegallery').click(function(){
 	loadToPlaceholder('gallery');
 });
 
-/*
-var menuicon = $('#menuicon');
+$('#privacy').click(function(){
+	loadToPlaceholder('privacy');
+});
 
-menuicon.click(function(){
-	var menubutton = $("#menubutton");
-	if( menuicon.is(':visible') && menubutton.attr( "aria-expanded" ) === "true" ) {
-		var navbarCollapse = $('#navbarCollapse');
-		navbarCollapse.removeClass('show');
-		menubutton.attr( "aria-expanded", false );
-	}
-});*/
+$('#terms').click(function(){
+	loadToPlaceholder('terms');
+});
+
+$('#shopping').click(function(){
+	loadToPlaceholder('shopping');
+});

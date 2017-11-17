@@ -1,0 +1,99 @@
+.bri_tc_lightblue {
+    color: #eb2035;
+}
+
+.bri_tc_lightbrown {
+    color: #1e4587;
+}
+
+.bri_tc_semibrown {
+    color: #9e8314;
+}
+
+.bri_tc_darkbrown {
+    color: #754c2c;
+}
+
+.bri_tc_coffee {
+    color: #613b2a;
+}
+
+.bri_bg {
+    background-color:#fff;    
+}
+
+.bri_bg_gold {
+    color:#9E8313; 
+    background-color: #613b2a;   
+}
+
+.bri_img_norm {
+    
+}
+
+.bri_btn_bg {
+    color: #fff;    
+    background-color:#613b2a;
+    border: none;
+}
+
+.bri_btn_bg:hover {
+    color: #fff;
+    background-color: #754c2c;
+    border-color: #eb2035;
+}
+
+.bri_bg_wall {
+    background-image: url("images/art/coffee_cup_8_vecteezy.svg") ;
+    background-size: cover;    
+}
+
+.bri_bg_floral {
+    background-image: url("images/art/coffee_cup_9_vecteezy.svg") ;
+    background-size: cover;    
+}
+
+.bri_bg_package {
+    background-image: url("images/art/package.svg") ;
+    background-repeat: no-repeat;    
+    background-position: center;  
+    background-size: 100% 100%;
+}
+
+@-moz-document url-prefix() {    
+    .bri_bg_package {
+        background-image: url("images/art/package.svg") ;
+        background-position: center;
+        background-size: 20% 100%;
+    }    
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .bri_bg_package {
+        background-image: url("images/art/package.svg") ;
+        background-position: center;
+        background-size: 20% 100%;
+    }
+}
+
+/* bootstrap overrides */
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+  
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #321F04;
+    text-align: center;
+  }

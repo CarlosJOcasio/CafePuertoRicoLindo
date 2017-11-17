@@ -1,3 +1,3 @@
 $('#viewaboutpagebtn').click(function(){
-	loadPage('#placeholder','about');
+	loadToPlaceholder('about');
 });
