@@ -54,15 +54,15 @@
 }
 
 .bri_bg_package {
-    background-image: url("images/art/package.svg") ;
-    background-repeat: no-repeat;    
-    background-position: center;  
-    background-size: 100% 100%;
+    background-image: url("images/art/pack1.svg"), url("images/art/pack2.svg");
+    background-repeat: no-repeat, no-repeat;    
+    background-position: top left, bottom right;  
+    background-size: 50% 100%, 50% 100%;
 }
 
 @-moz-document url-prefix() {    
     .bri_bg_package {
-        background-image: url("images/art/package.svg") ;
+        background-image: url("images/art/package0.svg") ;
         background-position: center;
         background-size: 20% 100%;
     }    
@@ -70,9 +70,22 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .bri_bg_package {
-        background-image: url("images/art/package.svg") ;
+        background-image: url("images/art/package0.svg") ;
         background-position: center;
         background-size: 20% 100%;
+    }
+}
+
+@media
+only screen and (max-width : 513px),
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (        min-device-pixel-ratio: 1.5) {
+
+    .bri_bg_package {
+        background-image: url("images/art/pack1.svg"), url("images/art/pack2.svg");
+        background-repeat: no-repeat, no-repeat;    
+        background-position: top, bottom;  
+        background-size: 100% 50%, 100% 50%;
     }
 }
 
